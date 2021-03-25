@@ -4,6 +4,17 @@ Python project for the Jan 2021 Code Louisville class
 This project takes the Jefferson County Residential Real estate Sales data from the past 1 year and merges it with the Rental data (both from Flex.mls)
 in order to find the best neighborhoods/zip codes to invest in to get the best return.
 
+The requirements to run this analysis are available in more detail in file: Requirements.txt
+
+I focused on the following project requirements:
+
+- create a dictionary or list, populate with data, and use the data
+- read data from an external file
+- use pandas, numpy, matplotlib (this was in the optional list)
+- visualize data in a graph
+
+The projects takes the following steps to get to the final result:
+
 First I imported the Sales data and the rental data xls files and created 2 dataframes.
 
 Since I was going to use the Age of the house as one of the datapoints I needed to clean up that column (in some cases they had the year built as age, or 999 or 9999). I cleared these in both files.

@@ -1,0 +1,20 @@
+Requirements to run the project:
+
+1. this is a data analytics projects written in Jupiter Notebooks. You need Jupiter Notebooks to open the file.
+
+2. the python code is in file: Final python project Orsi K.ipynb
+
+3. data files (used for the analysis in the code) are: Louisville Sales.xlsx and Rental data.xlsx
+
+4. In order to run the code pip install the following packages:
+
+- pandas
+- numpy
+- datetime
+- matplotlib
+- os
+- xlrd
+
+5. Once that is done, open the jupiter notebook file and click: Cell/Run All
+
+6. scroll through the steps (code and output)
